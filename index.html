@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#090909" name="theme-color"/>
+  <meta content="LOCT: seguran&ccedil;a e design em acess&oacute;rios para o dia a dia. Conhe&ccedil;a as cole&ccedil;&otilde;es e os modelos em desenvolvimento." name="description"/>
+  <title>
+   LOCT. | Loja oficial &mdash; conceito
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body>
+  <div class="announcement">
+   LOCT STORE
+   <span>
+    &middot;
+   </span>
+   Pr&eacute;via da loja &mdash; produtos em desenvolvimento
+  </div>
+  <header class="site-header">
+   <a aria-label="LOCT in&iacute;cio" class="logo" href="#inicio">
+    <span class="star">
+     ✦
+    </span>
+    LOCT
+    <span class="dot">
+     .
+    </span>
+   </a>
+   <nav aria-label="Navega&ccedil;&atilde;o" class="desktop-nav">
+    <a href="#loja">
+     Comprar
+    </a>
+    <a href="#marca">
+     A beleza da marca
+    </a>
+    <a href="#discretos">
+     Discretos e seguros
+    </a>
+    <a href="#tecnologia">
+     Tecnologia
+    </a>
+   </nav>
+   <div class="header-actions">
+    <button aria-label="Buscar produtos" id="search-toggle" title="Buscar">
+     &telrec;
+    </button>
+    <button aria-label="Abrir sacola" id="bag-toggle" title="Sacola">
+     ♧
+     <span id="bag-count">
+      0
+     </span>
+    </button>
+    <button aria-expanded="false" aria-label="Abrir menu" id="menu-toggle">
+     ☰
+    </button>
+   </div>
+  </header>
+  <div class="mobile-nav" id="mobile-nav">
+   <a href="#loja">
+    Comprar
+   </a>
+   <a href="#marca">
+    A beleza da marca
+   </a>
+   <a href="#discretos">
+    Discretos e seguros
+   </a>
+   <a href="#tecnologia">
+    Tecnologia
+   </a>
+  </div>
+  <div class="search-panel" hidden="" id="search-panel">
+   <label for="search-input">
+    Encontre seu LOCT
+   </label>
+   <input id="search-input" placeholder="Buscar por modelo, cor ou cole&ccedil;&atilde;o&hellip;" type="search"/>
+   <button aria-label="Fechar busca" id="search-close">
+    ✕
+   </button>
+  </div>
+  <main id="inicio">
+   <section class="hero">
+    <div class="hero-copy">
+     <span class="eyebrow">
+      NOVA ERA DA SEGURAN&Ccedil;A PESSOAL
+     </span>
+     <h1>
+      Prote&ccedil;&atilde;o com
+      <br/>
+      <i>
+       identidade.
+      </i>
+     </h1>
+     <p>
+      Um detalhe no seu estilo. Uma conex&atilde;o com quem importa.
+     </p>
+     <div class="hero-buttons">
+      <a class="button button-white" href="#loja">
+       Explorar produtos &nearrow;
+      </a>
+      <a class="button button-outline" href="#marca">
+       Conhe&ccedil;a as cole&ccedil;&otilde;es
+      </a>
+     </div>
+     <span class="micro">
+      DESIGN LOCT &middot; TECNOLOGIA EM DESENVOLVIMENTO
+     </span>
+    </div>
+    <div class="hero-art">
+     <img alt="Chaveiros minimalistas LOCT em preto, branco e grafite" src="assets/colecao.webp"/>
+    </div>
+   </section>
+   <section class="shop section" id="loja">
+    <div class="section-heading">
+     <div>
+      <span class="eyebrow">
+       LOCT STORE
+      </span>
+      <h2>
+       Encontre o seu modelo.
+      </h2>
+     </div>
+     <p>
+      Explore as duas cole&ccedil;&otilde;es da LOCT: a identidade premium da marca ou acess&oacute;rios discretos para o dia a dia. Produtos em desenvolvimento.
+     </p>
+    </div>
+    <div aria-label="Filtrar produtos" class="filters" role="group">
+     <button aria-pressed="true" class="filter active" data-filter="todos">
+      Todos
+     </button>
+     <button aria-pressed="false" class="filter" data-filter="marca">
+      A beleza da marca
+     </button>
+     <button aria-pressed="false" class="filter" data-filter="discreto">
+      Discretos e seguros
+     </button>
+    </div>
+    <div class="catalog" id="catalog">
+     <article class="item" data-category="marca" data-name="loct basic preto">
+      <div class="item-photo">
+       <span class="tag">
+        EM DESENVOLVIMENTO
+       </span>
+       <img alt="LOCT Basic preto" loading="lazy" src="assets/loct-basic.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; A BELEZA DA MARCA
+       </span>
+       <h3>
+        LOCT Basic
+       </h3>
+       <p>
+        Preto fosco &middot; Conex&atilde;o Bluetooth planejada
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Pre&ccedil;o a definir
+        </strong>
+        <button class="details" data-product="basic">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="item" data-category="marca" data-name="loct prime branco">
+      <div class="item-photo">
+       <span class="tag">
+        EM DESENVOLVIMENTO
+       </span>
+       <img alt="LOCT Prime branco" loading="lazy" src="assets/loct-prime.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; A BELEZA DA MARCA
+       </span>
+       <h3>
+        LOCT Prime
+       </h3>
+       <p>
+        Branco &middot; GPS e conectividade m&oacute;vel planejados
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Pre&ccedil;o a definir
+        </strong>
+        <button class="details" data-product="prime">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="item" data-category="marca" data-name="loct gov cinza grafite">
+      <div class="item-photo">
+       <span class="tag">
+        PROPOSTA INSTITUCIONAL
+       </span>
+       <img alt="LOCT Gov grafite" loading="lazy" src="assets/loct-gov.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; A BELEZA DA MARCA
+       </span>
+       <h3>
+        LOCT Gov
+       </h3>
+       <p>
+        Grafite &middot; Conceito para projetos institucionais
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Disponibilidade a definir
+        </strong>
+        <button class="details" data-product="gov">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="item" data-category="marca" data-name="ursinhos loct logo pelucia preto branco rosa la&ccedil;o premium">
+      <div class="item-photo">
+       <span class="tag">
+        EM DESENVOLVIMENTO
+       </span>
+       <img alt="Tr&ecirc;s ursinhos de pel&uacute;cia com logo LOCT: branco com la&ccedil;o rosa, preto e preto e branco" loading="lazy" src="assets/ursinhos-loct.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; A BELEZA DA MARCA
+       </span>
+       <h3>
+        Ursinhos LOCT
+       </h3>
+       <p>
+        Pel&uacute;cias exclusivas com o escudo e a estrela da marca
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Pre&ccedil;o a definir
+        </strong>
+        <button class="details" data-product="ursinhosLoct">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="item" data-category="discreto" data-name="ursinhos coloridos azul rosa claro rosa pink cinza marrom branco bege pelucia personagens">
+      <div class="item-photo">
+       <span class="tag">
+        CONCEITO DE ACESS&Oacute;RIO
+       </span>
+       <img alt="Ursinhos coloridos de pel&uacute;cia com la&ccedil;o, sem a logo LOCT" loading="lazy" src="assets/ursinhos.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; DISCRETO E SEGURO
+       </span>
+       <h3>
+        Ursinhos Coloridos
+       </h3>
+       <p>
+        Modelos de pel&uacute;cia que parecem acess&oacute;rios comuns
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Pre&ccedil;o a definir
+        </strong>
+        <button class="details" data-product="ursinhos">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="item" data-category="discreto" data-name="gatinho preto pelucia personagem">
+      <div class="item-photo">
+       <span class="tag">
+        CONCEITO DE ACESS&Oacute;RIO
+       </span>
+       <img alt="Gatinho preto de pel&uacute;cia" loading="lazy" src="assets/gatinho.webp"/>
+      </div>
+      <div class="item-meta">
+       <span>
+        LOCT &middot; DISCRETO E SEGURO
+       </span>
+       <h3>
+        Gatinho Preto
+       </h3>
+       <p>
+        Um acess&oacute;rio discreto com personalidade
+       </p>
+       <div class="item-bottom">
+        <strong>
+         Pre&ccedil;o a definir
+        </strong>
+        <button class="details" data-product="gatinho">
+         Ver detalhes &nearrow;
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+    <p class="fine">
+     * Imagens conceituais. Nenhum produto est&aacute; dispon&iacute;vel para compra nesta vers&atilde;o da loja.
+    </p>
+    <p class="no-results" hidden="" id="no-results">
+     Nenhum modelo encontrado. Tente outro termo.
+    </p>
+   </section>
+   <section class="collection" id="marca">
+    <div class="collection-image collection-image-brand">
+     <img alt="Ursinhos sofisticados com a identidade visual LOCT" src="assets/ursinhos-loct.webp"/>
+    </div>
+    <div class="collection-copy">
+     <span class="eyebrow">
+      COLE&Ccedil;&Atilde;O 01
+     </span>
+     <h2>
+      A beleza
+      <br/>
+      da marca.
+     </h2>
+     <p>
+      Chaveiros minimalistas e ursinhos com o escudo e a estrela LOCT. Uma cole&ccedil;&atilde;o de acabamento sofisticado, em que cada detalhe expressa a beleza da marca.
+     </p>
+     <a class="text-link" data-jump-filter="marca" href="#loja">
+      Ver cole&ccedil;&atilde;o &nearrow;
+     </a>
+    </div>
+   </section>
+   <section class="collection reverse" id="discretos">
+    <div class="collection-image">
+     <img alt="Ursinhos coloridos sem logo LOCT &mdash; cole&ccedil;&atilde;o Discretos e seguros" src="assets/ursinhos.webp"/>
+    </div>
+    <div class="collection-copy">
+     <span class="eyebrow">
+      COLE&Ccedil;&Atilde;O 02
+     </span>
+     <h2>
+      Discretos
+      <br/>
+      e seguros.
+     </h2>
+     <p>
+      Ursinhos coloridos e um gatinho de pel&uacute;cia com apar&ecirc;ncia de acess&oacute;rios comuns. Design delicado e discreto para acompanhar sua rotina.
+     </p>
+     <a class="text-link" data-jump-filter="discreto" href="#loja">
+      Ver cole&ccedil;&atilde;o &nearrow;
+     </a>
+    </div>
+   </section>
+   <section class="technology" id="tecnologia">
+    <div class="technology-inner">
+     <div>
+      <span class="eyebrow">
+       TECNOLOGIA LOCT
+      </span>
+      <h2>
+       Independ&ecirc;ncia,
+       <br/>
+       controle e seguran&ccedil;a.
+      </h2>
+     </div>
+     <div>
+      <p>
+       O LOCT combina um m&oacute;dulo f&iacute;sico de emerg&ecirc;ncia com um software de localiza&ccedil;&atilde;o em tempo real, compartilhada com pessoas de confian&ccedil;a. O objetivo &eacute; conectar a pessoa &agrave; sua rede de confian&ccedil;a para compartilhar sua localiza&ccedil;&atilde;o e emitir pedidos de ajuda de forma pr&aacute;tica e discreta.
+      </p>
+      <p class="tech-note">
+       A plataforma web de alertas j&aacute; possui um prot&oacute;tipo funcional. A integra&ccedil;&atilde;o com o m&oacute;dulo f&iacute;sico, o GPS em tempo real e as notifica&ccedil;&otilde;es em segundo plano ainda est&atilde;o em desenvolvimento e testes.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="institutional">
+    <span class="eyebrow">
+     LOCT GOV
+    </span>
+    <h2>
+     Prote&ccedil;&atilde;o tamb&eacute;m &eacute; acesso.
+    </h2>
+    <p>
+     Estudamos parcerias com institui&ccedil;&otilde;es de ensino e &oacute;rg&atilde;os p&uacute;blicos para ampliar o acesso &agrave; tecnologia de seguran&ccedil;a pessoal.
+    </p>
+    <span class="institutional-label">
+     Programa institucional em planejamento &middot; Sem parcerias firmadas
+    </span>
+   </section>
+  </main>
+  <footer>
+   <div class="footer-top">
+    <a class="logo" href="#inicio">
+     <span class="star">
+      ✦
+     </span>
+     LOCT
+     <span class="dot">
+      .
+     </span>
+    </a>
+    <p>
+     Design que acompanha. Seguran&ccedil;a que conecta.
+    </p>
+   </div>
+   <div class="footer-links">
+    <a href="#loja">
+     Produtos
+    </a>
+    <a href="#marca">
+     A beleza da marca
+    </a>
+    <a href="#discretos">
+     Discretos e seguros
+    </a>
+    <a href="#tecnologia">
+     Tecnologia
+    </a>
+   </div>
+   <div class="footer-bottom">
+    <span>
+     &copy;
+     <span id="year">
+     </span>
+     LOCT &middot; Projeto acad&ecirc;mico ISBET
+    </span>
+    <span>
+     Loja conceitual &middot; Vendas indispon&iacute;veis
+    </span>
+   </div>
+  </footer>
+  <div class="overlay" hidden="" id="overlay">
+  </div>
+  <aside aria-hidden="true" aria-label="Sacola de compras" class="drawer" id="drawer">
+   <div class="drawer-top">
+    <h2>
+     Sua sacola
+    </h2>
+    <button aria-label="Fechar sacola" id="drawer-close">
+     ✕
+    </button>
+   </div>
+   <div class="drawer-content">
+    <div class="empty-icon">
+     ◇
+    </div>
+    <h3>
+     Sua sacola est&aacute; vazia.
+    </h3>
+    <p>
+     Os produtos LOCT ainda est&atilde;o em desenvolvimento. As compras ser&atilde;o habilitadas quando os modelos e pre&ccedil;os estiverem definidos.
+    </p>
+    <button class="button button-dark" id="continue-shopping">
+     Explorar modelos
+    </button>
+   </div>
+  </aside>
+  <dialog class="product-dialog" id="product-dialog">
+   <button aria-label="Fechar" class="dialog-close" id="dialog-close">
+    ✕
+   </button>
+   <img alt="" id="dialog-image"/>
+   <div class="dialog-info">
+    <span class="eyebrow">
+     LOCT &middot; PR&Eacute;VIA DE PRODUTO
+    </span>
+    <h2 id="dialog-name">
+    </h2>
+    <p id="dialog-description">
+    </p>
+    <div class="dialog-status">
+     ◌ Em desenvolvimento &middot; Pre&ccedil;o a definir
+    </div>
+    <button class="button button-dark" id="dialog-shop">
+     Voltar aos produtos
+    </button>
+   </div>
+  </dialog>
+ </body>
+</html>
+
