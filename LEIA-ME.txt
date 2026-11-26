@@ -1,4 +1,2 @@
-LOCT STORE — versão atualizada
-Abra index.html no VS Code (Live Server) ou no navegador.
-Imagens de ursinhos coloridos corrigidas e style.css formatado.
-Preços e compra seguem desativados: prévia conceitual.
+LOCT-VENDAS — versão atualizada
+
